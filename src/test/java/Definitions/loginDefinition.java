@@ -2,6 +2,8 @@ package Definitions;
 
 import PageObject.LoginPage;
 import io.cucumber.java.en.*;
+import static Support.capturaPantalla.pantallazo;
+import java.io.IOException;
 
 public class loginDefinition {
     LoginPage login;
@@ -16,12 +18,16 @@ public class loginDefinition {
 
     }
     @When("ingreso correo {string}")
-    public void ingresoCorreo(String correo) {
+    public void ingresoCorreo(String correo)throws IOException  {
+        pantallazo();
         login.IngresarUsuario(correo);
+        pantallazo();
+
     }
     @And("ingreso contraseña {string}")
-    public void ingresoContraseña(String texto) {
+    public void ingresoContraseña(String texto) throws IOException {
         login.IngresarPassword(texto);
+        pantallazo();
     }
     @Then("puedo ingresar al portal de monitoreo")
     public void puedo_ingresar_al_portal_de_monitoreo() {
@@ -34,20 +40,23 @@ public class loginDefinition {
     }
 
     @When("ingreso correo invalido {string}")
-    public void ingresoCorreoInvalido(String correo) {
+    public void ingresoCorreoInvalido(String correo) throws IOException {
         login.IngresarUsuario(correo);
+        pantallazo();
     }
 
     @Then("valido el mensaje de correo errado {string}")
-    public void validoElMensajeDeCorreoErrado(String mensaje) {
+    public void validoElMensajeDeCorreoErrado(String mensaje) throws IOException {
         login.ClickIngresar();
         login.ValidarMensajeError(mensaje);
+        pantallazo();
     }
 
     @Then("valido el mensaje de password errado {string}")
-    public void validoElMensajeDePasswordErrado(String mensaje) {
+    public void validoElMensajeDePasswordErrado(String mensaje) throws IOException {
         login.ClickIngresar();
         login.ValidarMensajeError(mensaje);
+        pantallazo();
     }
 
 

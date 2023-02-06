@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a864f2e-51ad-48d9-97f5-a1673ad88d1e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Support/capturaPantalla.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Definitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Definitions/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/homePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/homePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Registro.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Registro.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Definitions/loginDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Definitions/loginDefinition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675438652435</updated>
-      <workItem from="1675438654107" duration="7448000" />
+      <workItem from="1675438654107" duration="8229000" />
     </task>
     <task id="LOCAL-00001" summary="Jorge Paz Primer despliegue">
       <created>1675519655322</created>
@@ -113,7 +111,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675647450831</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Status Checkup - Ultimos Cambios">
+      <created>1675649758431</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675649758431</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Status Checkup - Ultimos Cambios">
+      <created>1675649817388</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675649817388</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +134,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Jorge Paz Primer despliegue" />
     <MESSAGE value="Status Checkup - Pruebas de Regresion." />
-    <option name="LAST_COMMIT_MESSAGE" value="Status Checkup - Pruebas de Regresion." />
+    <MESSAGE value="Status Checkup - Ultimos Cambios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Status Checkup - Ultimos Cambios" />
   </component>
 </project>
