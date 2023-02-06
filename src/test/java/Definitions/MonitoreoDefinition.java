@@ -1,8 +1,8 @@
 package Definitions;
 
-import Page.LoginPage;
-import Page.ValidarWebPage;
-import Page.homePage;
+import PageObject.LoginPage;
+import PageObject.ValidarWebPage;
+import PageObject.homePage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;

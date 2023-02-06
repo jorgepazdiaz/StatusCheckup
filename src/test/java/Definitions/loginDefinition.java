@@ -1,6 +1,6 @@
 package Definitions;
 
-import Page.LoginPage;
+import PageObject.LoginPage;
 import io.cucumber.java.en.*;
 
 public class loginDefinition {
