@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a864f2e-51ad-48d9-97f5-a1673ad88d1e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Definitions/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Definitions/registroDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PageObject/RegistroPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Support/runTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Registro.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Definitions/loginDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PageObject/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/recuperarPassword.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,11 +97,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675438652435</updated>
-      <workItem from="1675438654107" duration="4427000" />
+      <workItem from="1675438654107" duration="5486000" />
     </task>
+    <task id="LOCAL-00001" summary="Jorge Paz Primer despliegue">
+      <created>1675519655322</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675519655322</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Jorge Paz Primer despliegue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jorge Paz Primer despliegue" />
   </component>
 </project>
