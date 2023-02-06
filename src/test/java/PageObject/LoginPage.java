@@ -1,4 +1,4 @@
-package Page;
+package PageObject;
 
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
@@ -18,7 +18,6 @@ public class LoginPage {
         driver=d;
         wait= new WebDriverWait(driver, Duration.ofSeconds(10));
         PageFactory.initElements(driver,this);
-
     }
 
     @FindBy(name = "usernameOrEmail") private WebElement usuario;

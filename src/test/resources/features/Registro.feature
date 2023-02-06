@@ -7,3 +7,4 @@ Feature: Crear una nueva cuenta
   Scenario: Crear un nuevo registro
     Given Ingresar a la pagina StatusCheckup
     When doy click en el boton sign up
+

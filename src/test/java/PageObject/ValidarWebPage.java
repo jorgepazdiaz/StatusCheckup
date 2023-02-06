@@ -1,4 +1,4 @@
-package Page;
+package PageObject;
 
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
